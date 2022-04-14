@@ -125,7 +125,7 @@ O valor do atributo `title` será exibido como uma dica de ferramenta quando voc
 
 ***
 
-> **PRÓXIMO AULA:** [Comentários](../1.7-cometarios)
+> **PRÓXIMO AULA:** [Comentários](../1.7-comentarios)
 
 ***
 
