@@ -1,0 +1,25 @@
+# Formatação e Estilo
+
+#### Assuntos abordados: 
+
+- [Títulos](2.1-titulos)
+- [Parágrafos](2.2-paragrafos)
+- [Estilos](2.3-estilos)
+- [Formatações de texto](2.4-formatacao-texto)
+- [Elementos de Citações](2.5-elementos-citacoes)
+- [CSS](2.6-css)
+- [Favicon](2.7-favicon)
+- [Elementos Block e Inline](2.8-elementos-block-e-inline)
+- [Atributo Class](2.9-atributo-class)
+- [Atributo ID](2.10-atributo-id)
+- [Caminhos de arquivos](2.11-caminhos-arquivos)
+- [Elemento Head](2.12-elemento-head)
+- [Layout](2.13-layout)
+- [Responsividade](2.14-responsividade)
+- [Semântica](2.15-semantica)
+- [Guia de estilo](2.16-guia-de-estilo)
+- [Entidades](2.17-entidades)
+- [Símbolos](2.18-simbolos)
+- [Conjunto de caracteres](2.19-conjunto-de-caracteres)
+- [Codificação de URL](2.20-codificacao-de-url)
+- [HTML vs XHTML](2.21-html-vs-xhtml)
