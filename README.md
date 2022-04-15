@@ -1,5 +1,5 @@
 # Guia HTML5
-Este repositório, tem como finalidade documentar todo o aprendizado de HTML5. 
+Este repositório tem como finalidade documentar todo o aprendizado de HTML5.
 
 Todo o conteúdo abordado neste repositório, foi com base no curso de HTML5 realizado na [W3Schools](https://my-learning.w3schools.com/tutorial/html).
 
