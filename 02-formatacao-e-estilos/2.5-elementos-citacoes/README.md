@@ -53,7 +53,7 @@ Esta tag define uma abreviação ou um acrônimo, como "HTML", "CSS", "Mr.", "Dr
 
 ###### resultado:
 
-<p>The <abbr title="Organização Mundial da Saúde">OMS</abbr> foi fundada em 1948.</p>
+<p>A <abbr title="Organização Mundial da Saúde">OMS</abbr> foi fundada em 1948.</p>
 
 ---
 
@@ -92,12 +92,12 @@ Esta tag define o título de um trabalho criativo (por exemplo, um livro, um poe
 ###### exemplo:
 
 ````html
-<p><cite>O Grito</cite> por Edvard Munch. Pintado em 1893.</p>
+<p><cite>O Grito</cite> de Edvard Munch. Pintado em 1893.</p>
 ````
 
 ###### resultado:
 
-<p><cite>O Grito</cite> por Edvard Munch. Pintado em 1893.</p>
+<p><cite>O Grito</cite> de Edvard Munch. Pintado em 1893.</p>
 
 ---
 
