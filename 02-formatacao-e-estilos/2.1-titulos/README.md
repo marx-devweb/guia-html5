@@ -21,7 +21,7 @@ Os mecanismos de pesquisa usam os títulos para indexar a estrutura e o conteúd
 
 ***
 
-> **PRÓXIMO AULA:** [Parágrafos](../02.2-paragrafos)
+> **PRÓXIMO AULA:** [Parágrafos](../2.2-paragrafos)
 
 ***
 
