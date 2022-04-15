@@ -145,8 +145,6 @@ Ambas as tegs também terão resultados visuais iguais. Mas semanticamente será
 
 <p>Este é um texto <sup>sobrescrito</sup>.</p>
 
-<br>
-
 ***
 
 > **PRÓXIMA AULA:** [Elementos de citações](../2.5-elementos-citacoes)
