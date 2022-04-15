@@ -67,7 +67,7 @@ A tag `<br>` não possui uma tag final, sendo assim ela e uma tag vazia.
 
 ***
 
-> **PRÓXIMO AULA:** [Estilos](../02.3-estilos)
+> **PRÓXIMO AULA:** [Estilos](../2.3-estilos)
 
 ***
 
