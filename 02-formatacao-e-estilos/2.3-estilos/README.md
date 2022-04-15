@@ -88,7 +88,7 @@ O atributo `style` é usado para adicionar estilos.
 
 ***
 
-> **PRÓXIMA AULA:** [Formatações](../2.4-formatacao)
+> **PRÓXIMA AULA:** [Formatações](../2.4-formatacao-texto)
 
 ***
 
