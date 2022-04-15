@@ -24,7 +24,7 @@ Com os comentários, podemos colocar notificações e lembretes no código:
 
 ***
 
-> **PRÓXIMO CONTEÚDO:** [Formatações e Estilos](../02-formatacao-e-estilos/01-introducao-e-fundamentos/1.7-comentarios)
+> **PRÓXIMO CONTEÚDO:** [Formatações e Estilos](../02-formatacao-e-estilos)
 
 ***
 
