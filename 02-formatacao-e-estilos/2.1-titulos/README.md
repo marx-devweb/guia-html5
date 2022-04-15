@@ -26,6 +26,6 @@ Os mecanismos de pesquisa usam os títulos para indexar a estrutura e o conteúd
 ***
 
 
-> **LINK DE APOIO**:
+> **FONTE DO CONTEÚDO**:
 >
 > - [W3Schools - Títulos](https://www.w3schools.com/html/html_headings.asp)
