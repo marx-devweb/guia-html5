@@ -109,15 +109,9 @@ BDO significa substituição bidirecional.
 
 ###### exemplo:
 
-A próxima linha será escrita da direita para a esquerda (rtl):
-
 ````html
 <bdo dir="rtl">Este texto será escrito da direita para a esquerda</bdo>
 ````
-
-###### resultado:
-
-<bdo dir="rtl">Este texto será escrito da direita para a esquerda</bdo>
 
 ----
 
