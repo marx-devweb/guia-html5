@@ -1,6 +1,6 @@
 
 
-# Estilos HTML - CSS
+# Estilos CSS
 
 CSS significa Cascading Style Sheets.
 
@@ -62,7 +62,7 @@ Abaixo temos um exemplo de como utilizar esta formatação:
 
 ### CSS externo
 
-Quando queremos definir um estilo para muitas páginas HTML, utilizamos uma folha de estilo externa. Para utilizar este recurso, devemos adicionar um ``<link>` na seção de cada página HTML, conforme exemplo abaixo:
+Quando queremos definir um estilo para muitas páginas HTML, utilizamos uma folha de estilo externa. Para utilizar este recurso, devemos adicionar um `<link>` na seção de cada página HTML, conforme exemplo abaixo:
 
 ``` html
 <!DOCTYPE html>
