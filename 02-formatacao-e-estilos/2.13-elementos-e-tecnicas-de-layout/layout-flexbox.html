@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Flexbox</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*Estilização do cabeçalho*/
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /*Container para flexbox*/
+        section {
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        /*Estilização da barra de navegação*/
+        nav {
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #ccc;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        article {
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Layout responsivo - faz as duas colunas/caixas empilharem uma sobre a outra ao invés de uma ao lado da outra, em telas pequenas */
+        @media (max-width: 600px) {
+            section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>CSS Layout Flexbox</h2>
+
+    <header>
+        <h2>Cabeçalho</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="">Londres</a></li>
+                <li><a href="">Paris</a></li>
+                <li><a href="">Tóquio</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Londres</h1>
+            <p>Londres é a capital da Inglaterra. É a cidade mais populosa do Reino Unido, com uma área metropolitana de
+                mais de 13 milhões de habitantes.</p>
+            <p>Situada às margens do rio Tâmisa, Londres é um importante assentamento há dois milênios, sua história
+                remonta
+                à sua fundação pelos romanos, que a chamaram de Londinium.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Rodapé</p>
+    </footer>
+
+
+</body>
+
+</html>
