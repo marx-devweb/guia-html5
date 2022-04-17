@@ -124,7 +124,7 @@ Só pode haver um único elemento ``<base>` no documento HTML.
 
 ---
 
-> **PRÓXIMA AULA:** [Layout](../2.13-layout)
+> **PRÓXIMA AULA:** [Layout](../2.13-elementos-e-tecnicas-de-layout)
 
 ***
 
