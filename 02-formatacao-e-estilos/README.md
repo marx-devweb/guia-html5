@@ -14,7 +14,7 @@
 - [Atributo ID](2.10-atributo-id)
 - [Caminhos de arquivos](2.11-caminhos-arquivos)
 - [Elemento Head](2.12-elemento-head)
-- [Layout](2.13-layout)
+- [Elementos e técnicas de layout](2.13-elementos-e-tecnicas-de-layout)
 - [Responsividade](2.14-responsividade)
 - [Semântica](2.15-semantica)
 - [Guia de estilo](2.16-guia-de-estilo)
