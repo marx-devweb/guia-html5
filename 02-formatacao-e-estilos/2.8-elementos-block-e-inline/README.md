@@ -74,7 +74,7 @@ Podemos utilizar os elementos `<span>` para estilizar partes do texto:
 
 ---
 
-> **PRÓXIMA AULA:** [Atributo Class](../2.8-elementos-block-e-inline)
+> **PRÓXIMA AULA:** [Atributo Class](../2.9-atributo-class)
 
 ***
 
