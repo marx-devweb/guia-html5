@@ -1,10 +1,12 @@
 # Conjuntos de Caracteres
 
+Para exibir uma página HTML corretamente, um navegador da Web deve conhecer o conjunto de caracteres usado na página.
 
+Isso é especificado na tag `<meta>`:
 
-
-
-
+``` html
+<meta charset="UTF-8">
+```
 
 ---
 
