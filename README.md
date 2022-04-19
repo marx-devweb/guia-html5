@@ -7,7 +7,7 @@ Todo o conteúdo abordado neste repositório, foi com base no curso de HTML5 rea
 
 ### CONTEÚDO ABORDADO:
 
-1. [Introdução e fundamentos](01-introducao-e-fundamentos)
+1. [Introdução e fundamentos](../01-introducao-e-fundamentos)
 2. [Formatações e estilos](02-formatacao-e-estilos)
 3. [Cores](03-cores)
 4. [Links](04-links)
