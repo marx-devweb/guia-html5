@@ -24,7 +24,7 @@ Com os comentários, podemos colocar notificações e lembretes no código:
 
 ***
 
-> **PRÓXIMO CONTEÚDO:** [Formatações e Estilos](guia-html5/conteudo/02-formatacao-e-estilos)
+> **PRÓXIMO CONTEÚDO:** [Formatações e Estilos](../guia-html5/conteudo/02-formatacao-e-estilos)
 
 ***
 
