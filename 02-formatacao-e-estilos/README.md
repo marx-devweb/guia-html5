@@ -16,7 +16,7 @@
 - [Elemento Head](2.12-elemento-head)
 - [Elementos e técnicas de layout](2.13-elementos-e-tecnicas-de-layout)
 - [Design responsivo](2.14-design-responsivo)
-- [Semântica](2.15-semantica)
+- [Elementos semânticos](2.15-elementos-semanticos)
 - [Guia de estilo](2.16-guia-de-estilo)
 - [Entidades](2.17-entidades)
 - [Símbolos](2.18-simbolos)
