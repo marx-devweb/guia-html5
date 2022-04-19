@@ -26,7 +26,7 @@ As quatro técnicas diferentes para criar layouts de várias colunas.
 
 ---
 
-> **PRÓXIMA AULA:** [Responsividade](../2.14-responsividade)
+> **PRÓXIMA AULA:** [Design Responsivo](../2.14-design-responsivo)
 
 ***
 
