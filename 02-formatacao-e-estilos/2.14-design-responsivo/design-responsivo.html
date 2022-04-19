@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Responsivo</title>
+</head>
+
+<body>
+    <h1>Design Responsivo</h1>
+    <hr>
+    <br>
+
+    <h2>Imagens responsivas</h2>
+    <p>Na imagem abaixo, utilizamos a propriedade width com o valor de 100%</p>
+    <img src="imagens/img_girl.jpg" style="width: 100%;">
+    <br>
+    <p>Na imagem abaixo, utilizamos a propriedade width com o valor de "max-width:100%; height:auto;"</p>
+    <img src="imagens/img_girl.jpg" style="max-width:100%;height:auto;">
+    <hr>
+    <br>
+
+    <h2>Mostrar imagens diferentes dependendo da largura do navegador</h2>
+    <picture>
+        <source srcset="imagens/img_smallflower.jpg" media="(max-width: 600px)">
+        <source srcset="imagens/img_flowers.jpg" media="(max-width: 1500px)">
+        <source srcset="imagens/flowers.jpg">
+        <img src="imagens/img_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+    <hr>
+    <br>
+
+    <h2>Tamanho do texto responsivo</h2>
+    <!--10vw definirá o tamanho para 10% da largura da janela de visualização.-->
+    <h1 style="font-size:10vw;">Cabeçalho responsivo</h1>
+    <!--5vw definirá o tamanho para 5% da largura da janela de visualização.-->
+    <p style="font-size:5vw;">Parágrafo responsivo</p>
+</body>
+
+</html>

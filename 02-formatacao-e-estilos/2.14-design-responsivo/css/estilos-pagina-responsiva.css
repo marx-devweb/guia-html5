@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+}
+
+header{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+header,
+header h1,
+header p{
+    padding: 15px;
+    
+}
+
+section{
+    overflow: auto;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+}
+
+nav li{
+    padding: 8px;
+    border-bottom: 1px solid #f1f1f1;
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.infor-centro{
+    float: left;
+    width: 60%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.infor-centro, 
+.infor-centro h1, 
+.infor-centro p, 
+.infor-centro img{
+    padding: 8px;
+}
+
+.infor-centro h1{
+    font-size: 25px;
+}
+
+.info-lateral{
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.info-lateral h2, .info-lateral p{
+    padding: 10px 10px;
+    
+}
+
+footer{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:800px) {
+    .infor-centro{
+        width: 80%;
+        padding: 0;
+    }
+
+    .info-lateral{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    nav, .infor-centro, .info-lateral{
+        width: 100%;
+    }
+
+}
