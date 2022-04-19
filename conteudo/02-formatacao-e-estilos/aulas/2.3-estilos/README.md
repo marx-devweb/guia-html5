@@ -84,11 +84,9 @@ O atributo `style` é usado para adicionar estilos.
 <p style="text-align:center;">Parágrafo centralizado.</p>
 ````
 
-<br>
-
 ***
 
-> **PRÓXIMA AULA:** [Formatações](../2.4-formatacao-texto)
+> **PRÓXIMA AULA:** [Formatação de texto](../2.4-formatacao-texto)
 
 ***
 

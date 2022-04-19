@@ -62,9 +62,6 @@ A tag `<br>` não possui uma tag final, sendo assim ela e uma tag vazia.
   My Bonnie lies over the ocean. 
   Oh, bring back my Bonnie to me.
 </pre>
-
-<br>
-
 ***
 
 > **PRÓXIMO AULA:** [Estilos](../2.3-estilos)

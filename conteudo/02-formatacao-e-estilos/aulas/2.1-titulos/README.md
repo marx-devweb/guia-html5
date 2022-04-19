@@ -17,8 +17,6 @@ Os títulos HTML são definidos com as tags `<h1>` à `<h6>`.
 
 Os mecanismos de pesquisa usam os títulos para indexar a estrutura e o conteúdo de suas páginas da web.
 
-<br>
-
 ***
 
 > **PRÓXIMO AULA:** [Parágrafos](../2.2-paragrafos)
