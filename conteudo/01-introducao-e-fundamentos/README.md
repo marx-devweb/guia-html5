@@ -2,7 +2,7 @@
 
 #### Assuntos abordados: 
 
-- [Introdução](1.2-introducao)
-- [Elementos](1.5-elementos)
-- [Atributos](1.6-atributos)
-- [Comentários](1.7-comentarios)
+- [Introdução](conteudo/1.2-introducao)
+- [Elementos](conteudo/1.5-elementos)
+- [Atributos](conteudo/1.6-atributos)
+- [Comentários](conteudo/1.7-comentarios)
