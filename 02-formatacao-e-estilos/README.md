@@ -15,7 +15,7 @@
 - [Caminhos de arquivos](2.11-caminhos-arquivos)
 - [Elemento Head](2.12-elemento-head)
 - [Elementos e técnicas de layout](2.13-elementos-e-tecnicas-de-layout)
-- [Responsividade](2.14-responsividade)
+- [Design responsivo](2.14-design-responsivo)
 - [Semântica](2.15-semantica)
 - [Guia de estilo](2.16-guia-de-estilo)
 - [Entidades](2.17-entidades)
