@@ -85,7 +85,7 @@ Utilizando esta propriedade, o tamanho do texto seguirá o tamanho da janela do 
 
 ---
 
-> **PRÓXIMA AULA:** [Semântica](../2.15-semantica)
+> **PRÓXIMA AULA:** [Elementos Semânticos](../2.15-elementos-semanticos)
 
 ***
 
