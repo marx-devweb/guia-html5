@@ -55,8 +55,6 @@ E as URLs relativos indicam um link para uma página dentro do mesmo site.
 <a href="/conteudo/04-links/aulas/4.2-cores-de-links/index.html">Cores dos Links</a>
 ```
 
-[Cores dos links](/conteudo/04-links/aulas/4.2-cores-de-links)
-
 <a href="/conteudo/04-links/aulas/4.2-cores-de-links" target="_blank">Cores dos Links</a>
 
 ---
