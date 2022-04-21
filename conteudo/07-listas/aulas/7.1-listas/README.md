@@ -6,7 +6,7 @@
 
 ***
 
-> **PRÓXIMA AULA:** [Listas ordenadas](../7.2-listas-nao-ordenadas)
+> **PRÓXIMA AULA:** [Listas não ordenadas](../7.2-listas-nao-ordenadas)
 
 ***
 
