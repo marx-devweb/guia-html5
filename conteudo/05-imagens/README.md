@@ -4,6 +4,6 @@
 
 - [Imagens](aulas/5.1-imagens)
 - [Mapas de imagem](aulas/5.2-mapas-de-imagem)
-- [Imagens de fundo](aulas/5.3-imagens-de-fundo)
+- [Imagem background](aulas/5.3-imagem-background)
 - [Elemento HTML `<picture>`](aulas/5.4-elemento-picture)
 
