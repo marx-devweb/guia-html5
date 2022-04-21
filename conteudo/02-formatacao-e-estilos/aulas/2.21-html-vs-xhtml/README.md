@@ -25,7 +25,7 @@ XHTML é uma versão do HTML mais rígida e baseada em XML ou simplesmente um HT
 
 ---
 
-> **PRÓXIMA CONTEÚDO:** [Cores](../02-cores)
+> **PRÓXIMA CONTEÚDO:** [Cores](/conteudo/02-cores)
 
 ***
 

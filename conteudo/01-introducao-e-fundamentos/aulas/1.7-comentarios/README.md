@@ -20,11 +20,9 @@ Com os comentários, podemos colocar notificações e lembretes no código:
 <!-- Lembre-se de adicionar mais informações aqui -->
 ````
 
-
-
 ***
 
-> **PRÓXIMO CONTEÚDO:** [Formatações e Estilos](../guia-html5/conteudo/02-formatacao-e-estilos)
+> **PRÓXIMO CONTEÚDO:** [Formatações e Estilos](/conteudo/02-formatacao-e-estilos)
 
 ***
 
