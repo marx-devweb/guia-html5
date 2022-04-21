@@ -45,7 +45,7 @@ As URLs absolutos indicam um endereço da web no atributo `href`:
 <a href="https://www.w3schools.com/">W3Schools</a>
 ```
 
-<a href="https://www.w3schools.com/">W3Schools</a>
+<a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
 
 <br>
 
@@ -56,6 +56,8 @@ E as URLs relativos indicam um link para uma página dentro do mesmo site.
 ```
 
 [Cores dos links](/conteudo/04-links/aulas/4.2-cores-de-links)
+
+<a href="/conteudo/04-links/aulas/4.2-cores-de-links" target="_blank">Cores dos Links</a>
 
 ---
 
@@ -69,7 +71,7 @@ Para usar uma imagem como link, basta colocar a tag `<img>` dentro da tag `<a>`:
 </a>
 ```
 
-<a href="#">
+<a href="#" target="_blank">
     <img src="../4.1-links/smiley.gif">
 </a>
 
@@ -83,7 +85,7 @@ Deveremos utilizar o  `mailto:` dentro do atributo `href`:
 <a href="mailto:marx.devweb@gmail.com">Me envie um email</a>
 ```
 
-<a href="mailto:marx.devweb@gmail.com">Me envie um email</a>
+<a href="mailto:marx.devweb@gmail.com" target="_blank">Me envie um email</a>
 
 ---
 

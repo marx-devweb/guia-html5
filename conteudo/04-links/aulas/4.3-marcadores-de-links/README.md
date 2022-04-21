@@ -106,7 +106,7 @@ Quando o link for clicado, a página rolará para baixo ou para cima até o loca
 
 ***
 
-> **PRÓXIMO CONTEÚDO:** [Imagens](conteudo/05-imagens)
+> **PRÓXIMO CONTEÚDO:** [Imagens](/conteudo/05-imagens)
 
 ***
 
