@@ -6,7 +6,7 @@
 
 ***
 
-> **PRÓXIMO AULA:** [Imagens de fundo](../5.3-imagens-de-fundo)
+> **PRÓXIMO AULA:** [Imagens background](../5.3-imagem-background)
 
 ***
 
