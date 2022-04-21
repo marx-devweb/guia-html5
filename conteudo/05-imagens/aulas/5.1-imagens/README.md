@@ -1,4 +1,4 @@
-# Links HTML
+# Imagens HTML
 
 
 
@@ -6,11 +6,11 @@
 
 ***
 
-> **PRÓXIMO AULA:** [Cores de Links](../4.2-cores-de-links)
+> **PRÓXIMO AULA:** [Mapas de imagem](../5.2-mapas-de-imagem)
 
 ***
 
 
 > **FONTE DO CONTEÚDO**:
 >
-> - [W3Schools - Links](https://www.w3schools.com/html/html_links.asp)
+> - [W3Schools - Imagens HTML](https://www.w3schools.com/html/html_images.asp)
