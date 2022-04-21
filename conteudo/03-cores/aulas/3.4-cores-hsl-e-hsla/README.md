@@ -72,7 +72,7 @@ O parâmetro alfa é um número entre 0,0 (totalmente transparente) e 1,0 (nada 
 
 ---
 
-> **PRÓXIMO CONTEÚDO:** [Links](conteudo/04-links)
+> **PRÓXIMO CONTEÚDO:** [Links](/conteudo/04-links)
 
 ***
 
