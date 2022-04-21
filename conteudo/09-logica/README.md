@@ -1,6 +1,16 @@
-# Lógica
+# Lógica com JavaScript
 
-#### Assuntos abordados: 
 
-- [Títulos](2.1-titulos)
-- 
+
+
+
+***
+
+> **PRÓXIMO CONTEÚDO:** [Formulários](/conteudo/10-formularios)
+
+***
+
+
+> **FONTE DO CONTEÚDO**:
+>
+> - [W3Schools - Lógica com JavaScript](https://www.w3schools.com/html/html_scripts.asp)
