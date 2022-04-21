@@ -18,5 +18,5 @@ Todo o conteúdo abordado neste repositório, foi com base no curso de HTML5 rea
 9. [Lógica](conteudo/09-logica)
 10. [Formulários](conteudo/10-formularios)
 11. [Gráficos](conteudo/11-graficos)
-12. [Meios de comunicação](conteudo/12-meios-de-comunicacao)
+12. [Multimídia](conteudo/12-multimidia)
 13. [API](conteudo/13-api)
