@@ -1,0 +1,34 @@
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td{
+    text-align: left;
+    padding: 8px;
+
+}
+
+.listras-zebra tr:nth-child(even){
+    background-color: #D6EEEE;
+}
+
+.listras-zebra-verticais td:nth-child(even), .listras-zebra-verticais th:nth-child(even){
+    background-color: #D6EEEE;
+}
+
+.listras-zebra-vertical-horizontal tr:nth-child(even){
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+.listras-zebra-vertical-horizontal th:nth-child(even), .listras-zebra-vertical-horizontal td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+.divisores-horizontais tr{
+    border-bottom: 1px solid black;
+}
+
+.mesa-flutuante tr:hover{
+    background-color: #D6EEEE;
+}
