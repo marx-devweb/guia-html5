@@ -34,23 +34,6 @@ Este atributo define o tipo do marcador, ele pode ter um dos seguintes valores:
 - type="I" - indica algarismos romanos maiúsculos; 
 - type="i" - indica algarismos romanos minúsculos;
 
-#### Letra maiúsculas:
-
-``` html
-<ol type="A">
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-</ol>
-```
-
-###### resultado:
-
-<ol type="A">
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-</ol>
 
 #### Letra minúsculas:
 
@@ -65,24 +48,6 @@ Este atributo define o tipo do marcador, ele pode ter um dos seguintes valores:
 ###### resultado:
 
 <ol type="a">
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-</ol>
-
-#### Algarismos romanos maiúsculos:
-
-``` html
-<ol type="I">
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-</ol>
-```
-
-###### resultado:
-
-<ol type="I">
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
