@@ -43,6 +43,8 @@ Está propriedade pode ter um dos seguintes valores
 
 Podemos aninhar nossas listas, ou seja, utilizar uma lista não ordenada dentro de uma lista não ordenada:
 
+###### exempl
+
 ``` html
 <ul>
     <li>Desenvolvedor Front-end
@@ -70,6 +72,34 @@ Podemos aninhar nossas listas, ou seja, utilizar uma lista não ordenada dentro 
     </li>
 </ul>
 ```
+
+###### resultado:
+
+<ul>
+    <li>Desenvolvedor Front-end
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+    </li>
+    <br>
+    <li>Desenvolvedor Back-end
+        <ol>
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+        </ol>
+    </li>
+    <br>
+    <li>Desenvolvedor Mobile
+        <ol>
+            <li>Kotlin </li>
+            <li>Swift </li>
+            <li>Python</li>
+        </ol>
+    </li>
+</ul>
 
 ---
 

@@ -13,8 +13,6 @@ As listas HTML permitem que os desenvolvedores da Web agrupem um conjunto de ite
 | `<dt>` | Define um termo na lista de definição                      |
 | `<dd>` | Define os detalhes ou uma definição mais completa do termo |
 
-
-
 ---
 
 ### Lista não ordenada
@@ -23,6 +21,8 @@ A tag `<ul>` define uma lista não ordenada. É cada item da lista e definido co
 
 Por padrão, os itens da lista serão marcados com pequenos círculos pretos:
 
+###### exemplo:
+
 ``` html
 <ul>
     <li>HTML</li>
@@ -30,6 +30,8 @@ Por padrão, os itens da lista serão marcados com pequenos círculos pretos:
     <li>JavaScript</li>
 </ul>
 ```
+
+###### resultado:
 
 <ul>
   <li>Html</li>
@@ -45,6 +47,8 @@ A tag `<ol>` define uma lista ordenada. É cada item da lista e definido com a t
 
 Por padrão, os itens da lista serão marcados com números:
 
+###### exemplo:
+
 ``` html
 <ol>
     <li>HTML</li>
@@ -52,6 +56,8 @@ Por padrão, os itens da lista serão marcados com números:
     <li>JavaScript</li>
 </ol>
 ```
+
+###### resultado:
 
 <ol>
   <li>Html</li>
@@ -67,31 +73,37 @@ Uma lista de descrição é uma lista de termos, com uma descrição de cada ter
 
 A tag `<dl>` define a lista de descrição, a tag `<dt>` define o termo (nome) e a tag `<dd>`  descreve cada termo:
 
+###### exemplo:
+
 ``` html
 <dl>
-    <dt><strong>Front-end</strong></dt>
-    <dd>- HTML</dd>
-    <dd>- CSS</dd>
-    <dd>- CSS</dd>
+    <dt>Desenvolvedor Front-end:</dt>
+    <dd>HTML</dd>
+    <dd>CSS</dd>
+    <dd>CSS</dd>
     <br>
-    <dt><strong>Back-end</strong></dt>
-    <dd>- Java</dd>
-    <dd>- PHP</dd>
-    <dd>- Phyton</dd>
+    <dt>Desenvolvedor Back-end:</dt>
+    <dd>Java</dd>
+    <dd>PHP</dd>
+    <dd>Phyton</dd>
 </dl>
 ```
 
+###### resultado:
+
 <dl>
-    <dt><strong>Front-end</strong></dt>
-    <dd>- HTML</dd>
-    <dd>- CSS</dd>
-    <dd>- CSS</dd>
+    <dt>Desenvolvedor Desenvolvedor Front-end:</dt>
+    <dd>HTML</dd>
+    <dd>CSS</dd>
+    <dd>CSS</dd>
     <br>
-    <dt><strong>Back-end</strong></dt>
-    <dd>- Java</dd>
-    <dd>- PHP</dd>
-    <dd>- Phyton</dd>
+    <dt>Desenvolvedor Back-end:</dt>
+    <dd>Java</dd>
+    <dd>PHP</dd>
+    <dd>Phyton</dd>
+	<dd>Phyton</dd>
 </dl>
+
 
 ***
 
