@@ -6,7 +6,7 @@
 
 ***
 
-> **PRÓXIMA AULA:** [Formulários - Atributos](../10.2-formularios-atributos)
+> **PRÓXIMA AULA:** [Formulários - Atributos](../10.6-formularios-de-entrada-atributos)
 
 ***
 
