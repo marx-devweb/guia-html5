@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML - Elementos</title>
+</head>
+
+<body>
+    <h1>Formulários HTML - Elementos</h1>
+    <hr>
+
+    <h2>O elemento &lt;input></h2>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+    <hr>
+
+    <h2>O elemento &lt;select></h2>
+    <label for="linguagens">Escolha uma linguagem:</label>
+    <select id="linguagens" name="linguagens">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="phyton">Phyton</option>
+    </select>
+    <br><br>
+
+
+    <h3>Valores Visíveis</h3>
+    <label for="linguagens">Escolha uma linguagem:</label>
+    <select id="linguagens" name="linguagens" size="2">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="phyton">Phyton</option>
+    </select>
+    <br><br>
+
+    <h3>Permitir várias seleções: </h3>
+    <label for="linguagens">Escolha uma linguagem:</label>
+    <select id="linguagens" name="linguagens" size="4" multiple>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="phyton">Phyton</option>
+    </select>
+    <hr>
+
+    <h2>O elemento &lt;textarea></h2>
+    <textarea name="message" rows="20" cols="50">
+        Deixe aqui sua mensagem!
+    </textarea>
+    <hr>
+
+    <h2>O elemento &lt;button></h2>
+    <button type="button" onclick="alert('Olá mundo!')">Clique aqui!</button>
+    <hr>
+
+    <h2>Os elementos &lt;fieldset> e &lt;legend></h2>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Dados:</legend>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" value="Marx"><br>
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input type="text" id="sobrenome" name="sobrenome" value="Santos"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <hr>
+
+    <h2>O elemento &lt;datalist></h2>
+    <form action="/action_page.php">
+        <input list="linguagens-programação" name="linguagens">
+        <datalist id="linguagens-programação">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            <option value="Phyton">
+            <option value="PHP">
+        </datalist>
+        <input type="submit">
+    </form>
+    <hr>
+
+    <h2>O elemento &lt;output></h2>
+    <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

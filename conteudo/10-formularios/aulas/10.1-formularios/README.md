@@ -98,16 +98,6 @@ Este atributo irá criar diversos botões de opção, onde o usuário irá poder
 </form>
 ```
 
-###### resultado:
-
-<form>
- <input type="radio" id="html" name="fav_language" value="HTML">
- <label for="html">HTML</label><br>
- <input type="radio" id="css" name="fav_language" value="CSS">
- <label for="css">CSS</label><br>
- <input type="radio" id="javascript" name="fav_language" value="JavaScript">
- <label for="javascript">JavaScript</label>
-</form>
 
 ---
 
@@ -130,16 +120,6 @@ Este atributo irá criar diversas caixas de opção, onde o usuário irá poder 
 </form>
 ```
 
-###### resultado:
-
-<form>
-  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-  <label for="vehicle1">HTML</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2">CSS</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3">JavaScript</label>
-</form>
 
 ---
 
@@ -161,15 +141,6 @@ O manipulador de formulário é especificado no atributo  `action` do formulári
 </form>
 ```
 
-###### resultado: 
-
-<form action="/action_page.php">
-    <label for="nome">Nome:</label><br>
-    <input type="text" id="name" name="name"><br>
-    <label for="sobrenome">Sobrenome:</label><br>
-    <input type="text" id="sobrenome" name="sobrenome"><br><br>
-    <input type="submit" value="Submit">
-</form>
 
 ---
 
