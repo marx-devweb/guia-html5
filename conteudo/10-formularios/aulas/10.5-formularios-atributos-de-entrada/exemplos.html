@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos de entrada - Exemplos</title>
+</head>
+
+<body>
+    <h1>Atributos de entrada - Exemplos</h1>
+    <hr>
+
+    <h2>O atributo value</h2>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" value="Marx"><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome" value="Santos">
+    </form>
+    <hr>
+
+    <h2>O atributo readonly</h2>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" value="Marx" readonly><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome" value="Santos">
+    </form>
+    <hr>
+
+    <h2>O atributo disabled</h2>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" value="Marx" disabled><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome" value="Santos">
+    </form>
+    <hr>
+
+    <h2>O atributo size</h2>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" size="50"><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome" size="4">
+    </form>
+    <hr>
+
+    <h2>O atributo maxlength</h2>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" size="50"><br>
+        <label for="pin">PIN:</label><br>
+        <input type="text" id="pin" name="pin" maxlength="4" size="4">
+    </form>
+    <hr>
+
+    <h2>Os atributos min e max</h2>
+    <form>
+        <label for="data-max">Insira uma data antes de 01-01-1980:</label>
+        <input type="date" id="data-max" name="data-max" max="1979-12-31"><br><br>
+
+        <label for="data-min">Insira uma data após 01-01-2000:</label>
+        <input type="date" id="data-min" name="data-min" min="2000-01-02"><br><br>
+
+        <label for="quantidade">Informe uma quantidade (entre 1 e 5):</label>
+        <input type="number" id="quantidade" name="quantidade" min="1" max="5">
+    </form>
+    <hr>
+
+    <h2>O atributo multiple</h2>
+    <form>
+        <label for="files">Selecione um arquivo:</label>
+        <input type="file" id="files" name="files" multiple>
+    </form>
+    <hr>
+
+    <h2>O atributo pattern</h2>
+    <form>
+        <label for="abreviacao">Informe a abreviação do seu país:</label>
+        <input type="text" id="abreviacao" name="abreviacao" pattern="[A-Za-z]{3}"
+            title="Abreviação do país em três letras">
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+
+    <h2>O atributo placeholder</h2>
+    <form>
+        <label for="telefone">Informe o número de telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(061) 99653-0683"
+            pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}">
+    </form>
+    <hr>
+
+    <h2>O atributo required</h2>
+    <form>
+        <label for="usuario">Nome de usuário:</label>
+        <input type="text" id="usuario" name="usuario" required>
+    </form>
+    <hr>
+
+    <h2>O atributo step</h2>
+    <form>
+        <label for="pontos">Pontos:</label>
+        <input type="number" id="pontos" name="pontos" step="3">
+    </form>
+    <hr>
+
+    <h2>O atributo autofocus</h2>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" autofocus><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome">
+    </form>
+    <hr>
+
+    <h2>Os atributos height e width</h2>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome"><br><br>
+        <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+    </form>
+    <hr>
+
+    <h2>O atributo list</h2>
+    <form action="/action_page.php">
+        <input list="linguagens">
+        <datalist id="linguagens">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            <option value="Phyton">
+            <option value="PHP">
+        </datalist>
+    </form>
+    <hr>
+
+    <h2>O atributo autocomplete</h2>
+    <form action="/action_page.php" autocomplete="on">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" autocomplete="off"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
