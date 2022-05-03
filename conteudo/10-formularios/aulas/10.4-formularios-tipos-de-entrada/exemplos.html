@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos Input Types</title>
+</head>
+
+<body>
+    <h1>Formulários HTML - Input Types</h1>
+    <hr>
+
+    <h2>Type="text"</h2>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome">
+    </form>
+    <hr>
+
+    <h2>Type="password"</h2>
+    <form>
+        <label for="username">Nome de Usuário:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Senha:</label><br>
+        <input type="password" id="pwd" name="pwd">
+    </form>
+    <hr>
+
+    <h2>Type="submit"</h2>
+    <form action="#">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+
+    <h2>Type="reset"</h2>
+    <form action="#">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+    <hr>
+
+    <h2>Type="radio"</h2>
+    <form>
+        <input type="radio" id="html" name="linguagens" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="linguagens" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="linguagens" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+    </form>
+    <hr>
+
+    <h2>Type="checkbox"</h2>
+    <form>
+        <input type="checkbox" id="linguagem1" name="linguagem1" value="HTML">
+        <label for="linguagem1">HTML</label><br>
+        <input type="checkbox" id="linguagem2" name="linguagem2" value="CSS">
+        <label for="linguagem2">CSS</label><br>
+        <input type="checkbox" id="linguagem3" name="linguagem3" value="JavaScript">
+        <label for="linguagem3">JavaScript</label>
+    </form>
+    <hr>
+
+    <h2>Type="button"</h2>
+    <input type="button" onclick="alert('Olá Mundo!')" value="Clique!">
+    <hr>
+
+    <h2>Type="color"</h2>
+    <form>
+        <label for="favcolor">Selecione sua cor favorita:</label>
+        <input type="color" id="favcolor" name="favcolor">
+    </form>
+    <hr>
+
+    <h2>Type="date"</h2>
+    <form>
+        <label for="data">Informe uma data:</label>
+        <input type="date" id="data" name="data">
+    </form>
+    <hr>
+
+    <h2>Type="datetime-local"</h2>
+    <form>
+        <label for="datahora">Informe uma data e horas:</label>
+        <input type="datetime-local" id="datahora" name="datahora">
+    </form>
+    <hr>
+
+    <h2>Type="email"</h2>
+    <form>
+        <label for="email">informe um email:</label>
+        <input type="email" id="email" name="email">
+    </form>
+    <hr>
+
+    <h2>Type="file"</h2>
+    <form>
+        <label for="arquivo">Selecione um arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo">
+    </form>
+    <hr>
+
+    <h2>Type="hidden"</h2>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <input type="hidden" id="custId" name="custId" value="3487">
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+
+    <h2>Type="month"</h2>
+    <form>
+        <label for="mes-aniversario">Informe o mês e ano do seu aniversário:</label>
+        <input type="month" id="mes-aniversario" name="mes-aniversario">
+    </form>
+    <hr>
+
+    <h2>Type="number"</h2>
+    <form>
+        <label for="quantity">Informe uma quantidade (entre 1 e 5):</label>
+        <input type="number" id="quantidade" name="quantidade" min="1" max="5">
+    </form>
+    <hr>
+
+    <h2>Type="range"</h2>
+    <form>
+        <label for="vol">Volume (entre 1 e 5):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+    </form>
+    <hr>
+
+    <h2>Type="search"</h2>
+    <form>
+        <label for="pesquisa">Oque você procura?</label>
+        <input type="search" id="pesquisa" name="pesquisa">
+    </form>
+    <hr>
+
+    <h2>Type="tel"</h2>
+    <form>
+        <label for="telefone">Digite seu número de telefone:</label>
+        <input type="tel" id="telefone" name="telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    </form>
+    <hr>
+
+    <h2>Type="time"</h2>
+    <form>
+        <label for="hora">Informe um horário:</label>
+        <input type="time" id="hora" name="hora">
+    </form>
+    <hr>
+
+    <h2>Type="url"</h2>
+    <form>
+        <label for="paginainicial">Adicione sua página inicial:</label>
+        <input type="url" id="paginainicial" name="paginainicial">
+    </form>
+    <hr>
+
+    <h2>Type="week"</h2>
+    <form>
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week">
+    </form>
+</body>
+
+</html>
