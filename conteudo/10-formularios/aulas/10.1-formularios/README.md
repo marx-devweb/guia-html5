@@ -1,8 +1,24 @@
 # Formulários HTML
 
-Formulários HTML são um dos principais pontos de interação entre um usuário e um web site ou aplicativo. Eles permitem que os usuários enviem dados para o web site.
+> Os formulários HTML são um dos principais pontos de interação entre um usuário e um web site ou aplicativo. Eles permitem que os usuários enviem dados para o web site.
 
-Para criar um formulário HTML, devemos utilizar o elemento HTML `<form>`. 
+Para criar um formulário HTML, utilizamos o elemento HTML `<form>`. 
+
+Um formulário possui diferentes tipos de elementos de entrada, como: campos de texto (linha única ou de várias linhas), caixas de seleção, botões de opção, botões de envio, etc.
+
+---
+
+### O elemento `<form>`
+
+Todos formulários HTML começam com um elemento `<form>` como este:
+
+###### sintaxe:
+
+```html
+<form>
+    ...
+</form>
+```
 
 Este elemento suporta alguns atributos específicos para configurar a forma como o formulário se comporta. Todos os seus atributos são opcionais, mas é considerada a melhor prática sempre definir pelo menos o atributo `action `e o atributo `method`.
 
@@ -15,11 +31,13 @@ Um formulário possui diferentes tipos de elementos de entrada, como: campos de 
 
 ### O elemento `<input>`
 
-Esse elemento é usado para criar controles interativos para formulários baseados na web para receber dados do usuário. Sua semântica varia consideravelmente dependendo do valor de seu atributo `type`.
+Este elemento define os campos de entrada de dados do usuário.
+
+Sua semântica varia consideravelmente dependendo do valor de seu atributo `type`.
 
 O atributo `type` é extremamente importante porque define a forma como o elemento `<input>` se comporta.
 
-Ele possui diversos tipos, aqui estão alguns:
+###### exemplos:
 
 ```html
 <input type="text"><!--Define um campo de entrada de texto de linha unica-->
@@ -60,20 +78,12 @@ O `<input type="text">` define um campo de entrada de texto de linha única.
 </form>
 ```
 
-###### resultado:
-
-<form>
-  <label for="nome">Nome:</label><br>
-  <input type="text" id="name" name="name"><br>
-  <label for="sobrenome">Sobrenome:</label><br>
-  <input type="text" id="sobrenome" name="sobrenome">
-</form>
 
 ---
 
 ### O elemento `<label>`
 
-A tag `<label>` define um rótulo para vários elementos de formulário. 
+Este elemento define uma legenda para um campo de entrada. 
 
 Esta tag possui o atributo `for`. Este atributo deve ser igual o atributo `id` do elemento `<input>`, pois isso que fará a ligação entre os dois.
 
@@ -123,7 +133,7 @@ Este atributo irá criar diversas caixas de opção, onde o usuário irá poder 
 
 ---
 
-### O botão Enviar
+### Botão de enviar
 
 O `<input type="submit">` define um botão para enviar os dados do formulário para um manipulador de formulários.
 
