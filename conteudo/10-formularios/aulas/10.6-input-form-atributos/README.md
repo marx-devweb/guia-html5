@@ -1,4 +1,4 @@
-# Input `form` - Atributos
+# Atributos do Input form 
 
 ### O atributo `form`
 
@@ -9,12 +9,14 @@ O valor deste atributo deve ser igual o valor do atributo `id` do elemento `<for
 ###### exemplo:
 
 ```html
+<!--Um campo de entrada localizado fora do formulário HTML (mas ainda faz parte do formulário):-->
+
 <form action="/action_page.php" id="form1">
   <label for="nome">Nome:</label>
   <input type="text" id="nome" name="nome"><br><br>
   <input type="submit" value="Enviar">
 </form>
-
+<br>
 <label for="sobrenome">Sobrenome:</label>
 <input type="text" id="sobrenome" name="sobrenome" form="form1">
 ```
@@ -39,7 +41,7 @@ Válido apenas para os input type `submit` e `image`.
     <label for="sobrenome">Sobrenome:</label>
     <input type="text" id="sobrenome" name="sobrenome"><br><br>
     <input type="submit" value="Enviar">
-    <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+    <input type="submit" formaction="/action_page2.php" value="Enviar como ADM">
 </form>
 ```
 
@@ -60,7 +62,7 @@ Válido apenas para os input type `submit` e `image`.
     <label for="nome">Nome:</label>
     <input type="text" id="nome" name="nome"><br><br>
     <input type="submit" value="Enviar">
-    <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+    <input type="submit" formenctype="multipart/form-data" value="Enviar como Multipart/form-data">
 </form>
 ```
 
