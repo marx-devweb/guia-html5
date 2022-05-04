@@ -2,5 +2,5 @@
 
 #### Assuntos abordados: 
 
-- [](aulas/)
-- [](aulas/)
+- [Gráficos Canvas](aulas/11.1-grafico-canvas)
+- [Gráficos SVG](aulas/11.2-grafico-svg)
