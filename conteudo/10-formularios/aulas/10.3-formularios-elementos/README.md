@@ -185,7 +185,7 @@ Este elemento representa o resultado de um cálculo (como um realizado por um sc
 
 ***
 
-> **PRÓXIMA AULA:** [Formulários - Tipos de entrada](../10.4-formularios-tipos-de-entrada)
+> **PRÓXIMA AULA:** [Formulários HTML - Input Types](../10.4-formularios-input-types)
 
 ***
 

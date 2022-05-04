@@ -1,4 +1,4 @@
-# Formulários HTML - Atributos de entrada
+# Atributos do Input
 
 ### O atributo `value`
 
@@ -281,7 +281,7 @@ Este atributo não pode ser aplicado se o atributo `type` estiver definido como:
 
 ***
 
-> **PRÓXIMA AULA:** [Formulários de entrada - Atributos](../10.6-formularios-de-entrada-atributos)
+> **PRÓXIMA AULA:** [Atributos do formulário de entrada](../10.6-atributos-do-formulario-de-entrada)
 
 ***
 

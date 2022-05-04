@@ -1,4 +1,4 @@
-# Formulários HTML - Input Types (tipos de entrada)
+# Formulários HTML - Input Types
 
 Aqui estão os diferentes tipos de entrada em HTML:
 
@@ -480,7 +480,7 @@ Define um campo para o usuário selecionar uma semana e ano.
 
 ***
 
-> **PRÓXIMA AULA:** [Formulários HTML - Atributos de entrada](../10.5-formularios-atributos-de-entrada)
+> **PRÓXIMA AULA:** [Atributos do `<input>`](../10.5-input-atributos)
 
 ***
 
