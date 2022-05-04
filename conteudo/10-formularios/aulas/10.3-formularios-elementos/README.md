@@ -2,25 +2,20 @@
 
 ### O elemento `<form>`
 
-É o elemento que define o formulário e os atributos que definem a maneira como esse formulário se comporta.
+Define um formulário HTML. 
 
-Este elemento pode conter com um ou mais dos seguintes elementos de formulário:
+Este elemento suporta alguns atributos específicos para configurar a forma como o formulário se comporta. Todos os seus atributos são opcionais, mas é considerada a melhor prática sempre definir pelo menos o atributo `action `e o atributo `method`.
 
-- `<input>`
-- `<label>`
-- `<select>`
-- `<textarea>`
-- `<button>`
-- `<fieldset>`
-- `<legend>`
-- `<datalist>`
-- `<output>`
-- `<option>`
-- `<optgroup>`
+- O atributo `action` define o local (uma URL) em que os dados recolhidos do formulário devem ser enviados.
+- O atributo `method` define qual o método HTTP para enviar os dados (ele pode ser "**GET**" ou "**POST**").
+
+Um formulário possui diferentes tipos de elementos de entrada, como: campos de texto (linha única ou de várias linhas), caixas de seleção, botões de opção, botões de envio, etc.
 
 ---
 
 ### O elemento `<input>`
+
+Define os campos de entrada de dados.
 
 Este elemento pode ser exibido de várias maneiras, dependendo do atributo `type`.
 
@@ -31,13 +26,13 @@ Este elemento pode ser exibido de várias maneiras, dependendo do atributo `type
 <input type="text" id="nome" name="nome">
 ```
 
->  Todos os valores do atributo  `type` são abordados na próxima aula: [Formulários HTML - Tipos de entrada](../10.4-formularios-tipos-de-entrada)
+>  Todos os valores do atributo  `type` são abordados na próxima aula: [Formulários HTML - Input Types](../10.4-formularios-input-types)
 
 ---
 
 ### O elemento `<label>`
 
-Este elemento define um rótulo para vários elementos do formulário.
+Define um rótulo para vários elementos do formulário.
 
 Esta tag possui o atributo `for`. Este atributo deve ser igual o atributo `id` do elemento `<input>`, pois isso que fará a ligação entre os dois.
 
@@ -45,7 +40,7 @@ Esta tag possui o atributo `for`. Este atributo deve ser igual o atributo `id` d
 
 ### O elemento `<select>`
 
-Este elemento define uma lista suspensa:
+Define uma lista suspensa:
 
 ###### exemplo: 
 
@@ -91,7 +86,7 @@ O atributo `multiple` permitir que o usuário selecione mais de um valor:
 
 ### O elemento `<textarea>`
 
-Este elemento define uma área de texto:
+Define uma área de texto:
 
 ###### exemplo: 
 
@@ -109,7 +104,7 @@ O atributo `cols` especifica a largura visível de uma área de texto.
 
 ### O elemento `<button>`
 
-Este elemento define um botão clicável.
+Define um botão clicável.
 
 ###### exemplo:
 

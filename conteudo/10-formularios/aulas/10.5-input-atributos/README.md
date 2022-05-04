@@ -281,7 +281,7 @@ Este atributo não pode ser aplicado se o atributo `type` estiver definido como:
 
 ***
 
-> **PRÓXIMA AULA:** [Atributos do formulário de entrada](../10.6-atributos-do-formulario-de-entrada)
+> **PRÓXIMA AULA:** [Atributos do input form](../10.6-input-form-atributos)
 
 ***
 

@@ -480,7 +480,7 @@ Define um campo para o usuário selecionar uma semana e ano.
 
 ***
 
-> **PRÓXIMA AULA:** [Atributos do `<input>`](../10.5-input-atributos)
+> **PRÓXIMA AULA:** [Atributos do input](../10.5-input-atributos)
 
 ***
 
