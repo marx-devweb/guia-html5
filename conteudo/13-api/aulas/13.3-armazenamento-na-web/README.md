@@ -22,7 +22,7 @@
 
 ***
 
-> **PRÓXIMA AULA:** [API de arrastar e soltar](../13.2-arrastar-soltar)
+> **PRÓXIMA AULA:** [API de Web Workers](../13.4-workers)
 
 ***
 
