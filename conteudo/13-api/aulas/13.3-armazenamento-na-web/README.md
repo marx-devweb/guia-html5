@@ -1,4 +1,4 @@
-# API de geolocalização
+# API de armazenamento
 
 
 
@@ -29,4 +29,4 @@
 
 > **FONTE DO CONTEÚDO**:
 >
-> - [W3Schools - API de geolocalização](https://www.w3schools.com/html/html5_geolocation.asp)
+> - [W3Schools - API de armazenamento](https://www.w3schools.com/html/html5_webstorage.asp)
