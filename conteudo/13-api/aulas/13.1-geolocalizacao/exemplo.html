@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de geolocalização HTML</title>
+</head>
+
+<body>
+    <h1>API de geolocalização HTML - Exemplo</h1>
+    <hr>
+
+    <h2>Usando geolocalização HTML</h2>
+    <button onclick="getLocation()">OBTER COORDENADAS</button>
+    <p id="demo"></p>
+
+    <script>
+        var x = document.getElementById("demo");
+
+        //funçao para verificar se a geolocalização é compatível.
+        function getLocation() {
+            //se suportado, ira executar o método getCurrentPosition().
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+                //caso contrário, exibará a mensagem para o usuário.
+            } else {
+                x.innerHTML = "A geolocalização não é suportada por este navegador.";
+            }
+        }
+
+        //função para gerar a latitude e a longitude.
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+        }
+
+        //função para lidar com os erros e rejeições
+        function showError(error) {
+            switch (error.code) {
+                case error.PERMISSION_DENIED:
+                    x.innerHTML = "O usuário negou a solicitação de geolocalização."
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    x.innerHTML = "As informações de localização não estão disponíveis."
+                    break;
+                case error.TIMEOUT:
+                    x.innerHTML = "A solicitação para obter a localização do usuário expirou."
+                    break;
+                case error.UNKNOWN_ERROR:
+                    x.innerHTML = "Ocorreu um erro desconhecido."
+                    break;
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de arrastar e soltar</title>
+
+    <style>
+        #div1 {
+            width: 439px;
+            height: 207px;
+            padding: 10px;
+            border: 2px solid #aaaaaa;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>API de arrastar e soltar - Exemplo</h1>
+    <p>Arraste a logo MARX para dentro do retângulo:</p>
+
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <!--O evento ondragover especifica onde os dados arrastados podem ser soltos.-->
+    <!--o atributo ondrop chama a função drop(event)-->
+    <br>
+    <img id="drag1" src="logo.png" draggable="true" ondragstart="drag(event)">
+    <!--o atributo draggable torna o elemento como arrastável-->
+    <!--o atributo ondragstart chama a função drag(event) para especificar os dados que serão arrastados-->
+
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+            //o metodo dataTransfer.setData() define o tipo de dados e o valor dos dados arrastados
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</body>
+
+</html>
