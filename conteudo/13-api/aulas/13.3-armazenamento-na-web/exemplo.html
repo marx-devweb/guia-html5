@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API de armazenamento</title>
+</head>
+
+<body>
+    <h1>API de armazenamento - Exemplo</h1>
+    <hr>
+
+    <h2>O objeto localStorage</h2>
+    <div id="result"></div>
+
+    <p><button onclick="clickCounter()" type="button">CONTAGEM!</button></p>
+    <div id="result"></div>
+    <p>Clique no botão para ver o contador aumentar.</p>
+    <p>Feche a guia do navegador (ou janela) e tente novamente, o contador continuará a contar (não será redefinido).
+    </p>
+    <hr>
+
+    <h2>O objeto sessionStorage</h2>
+    <p><button onclick="clickCounter2()" type="button">CONTAGEM</button></p>
+    <div id="result2"></div>
+    <p>Clique no botão para ver o contador aumentar</p>
+    <p>Feche a guia do navegador (ou janela) e tente novamente, o contador será redefinido.</p>
+
+    <script>
+        // Verifica o suporte do navegador.
+        if (typeof (Storage) !== "undefined") {
+            //obejto para armazena os dados.
+            localStorage.setItem("lastname", "Marx");
+            //objeto para recuperar os dados. 
+            document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+        } else {
+            //caso o navegador não tenha suporte, irá retorna a frase.
+            document.getElementById("result").innerHTML = "Desculpe, seu navegador não suporta Web Storage...";
+        }
+
+
+        //função para contar o número de vezes que um usuário clicou em um botão. Os dados não serão excluídos quando o navegador for fechado.
+        function clickCounter() {
+            if (typeof (Storage) !== "undefined") {
+                if (localStorage.clickcount) {
+                    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+                } else {
+                    localStorage.clickcount = 1;
+                }
+                document.getElementById("result").innerHTML = "Você clicou no botão " + localStorage.clickcount +
+                    " vez(es) .";
+
+            } else {
+                document.getElementById("result").innerHTML = "Desculpe, seu navegador não suporta Web Storage...";
+            }
+        }
+
+        //função para contar o número de vezes que um usuário clicou em um botão. Os dados serão excluídos quando o navegador for fechado.
+        function clickCounter2() {
+            if (typeof (Storage) !== "undefined") {
+                if (sessionStorage.clickcount) {
+                    sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
+                } else {
+                    sessionStorage.clickcount = 1;
+                }
+                document.getElementById("result2").innerHTML = "Você clicou no botão " + sessionStorage
+                    .clickcount + " vez(es) nesta sessão.";
+            } else {
+                document.getElementById("result").innerHTML = "Desculpe, seu navegador não suporta Web Storage...";
+            }
+        }
+    </script>
+</body>
+
+
+</html>
